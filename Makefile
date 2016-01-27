@@ -1,11 +1,12 @@
-APPNAME = s
+APPBUILD = s
+APPNAME = search
 
 all:
 	go build .
 
 install: all
 	sudo install -d /usr/local/bin
-	sudo install -c ${APPNAME} /usr/local/bin/s
+	sudo install -c ${APPBUILD} /usr/local/bin/${APPNAME}
 
 uninstall:
-	sudo rm /usr/local/bin/s
+	sudo rm /usr/local/bin/${APPNAME}
