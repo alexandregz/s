@@ -43,12 +43,12 @@ s -p wikipedia rhinos
 
 We can do partial matching of provider names. This searches Facebook for hamsters.
 ```
-s -p f hamsters
+s -p fa hamsters
 ```
 
 Or toasters on amazon.
 ```
-s -p a toasters
+s -p am toasters
 ```
 
 ## Advanced
@@ -66,17 +66,24 @@ s -b w3m cats
 
 ## Supported Providers
 
+* 8tracks
 * amazon
+* atmospherejs
 * baidu
+* bandcamp
 * bing
+* codepen
 * coursera
 * crunchyroll
 * digg
 * dockerhub
+* dribbble
 * duckduckgo
 * dumpert
 * facebook
 * flickr
+* flipkart
+* foursquare
 * gist
 * github
 * gmail
@@ -85,25 +92,34 @@ s -b w3m cats
 * google
 * hackernews
 * ietf
+* imdb
 * imgur
 * kickasstorrents
 * libgen
+* macports
+* mdn
+* msdn
 * nhaccuatui
 * npm
 * npmsearch
+* nvd
 * packagist
 * php
 * pinterest
+* python
 * quora
 * reddit
 * rubygems
 * soundcloud
+* spotify
 * stackoverflow
 * steam
 * taobao
 * thepiratebay
 * twitchtv
 * twitter
+* unity3d
+* vimeo
 * wikipedia
 * wolframalpha
 * yahoo
@@ -119,6 +135,7 @@ s -b w3m cats
 * [Vitor Cortez (vekat)](https://github.com/vekat/)
 * [David Liu (tw4dl)](https://github.com/tw4dl/)
 * [Lex Broner (akb)](http://github.com/akb/)
+* [Diego Jara (djap96)](https://github.com/djap96/)
 
 #### License
 
